@@ -5,10 +5,10 @@ import org.openqa.selenium.WebElement;
 import utilities.BaseDriver;
 import utilities.MyMethods;
 
-public class TestCase1_Jazeera extends BaseDriver {
+public class BaseTestCase_Jazeera extends BaseDriver {
 
     @Test
-    public void TestCase1(){
+    public void BaseTestCase(){
 
         driver.get("https://parabank.parasoft.com/parabank/index.htm");
         MyMethods.myWait(2);
