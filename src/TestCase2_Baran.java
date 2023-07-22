@@ -22,7 +22,7 @@ public class TestCase2_Baran {
         userName.sendKeys("BaranGurses");
 
         WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
-        password.sendKeys("123456");
+        password.sendKeys("1234567");
 
         WebElement logIn = driver.findElement(By.xpath("//input[@type='submit']"));
         logIn.click();
