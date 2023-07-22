@@ -34,8 +34,8 @@ public class TestCase2_Baran {
         WebElement payee = driver.findElement(By.xpath("//input[@name='payee.name']"));
         payee.sendKeys("Baran");
 
-        WebElement adress = driver.findElement(By.xpath("//input[@name='payee.address.street']"));
-        adress.sendKeys("Chase Ave");
+        WebElement address = driver.findElement(By.xpath("//input[@name='payee.address.street']"));
+        address.sendKeys("Chase Ave");
 
         WebElement city = driver.findElement(By.xpath("//input[@name='payee.address.city']"));
         city.sendKeys("Rutherford");
