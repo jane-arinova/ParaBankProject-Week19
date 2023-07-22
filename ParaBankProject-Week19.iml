@@ -17,7 +17,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="selenium-java-4.10" level="project" />
+    <orderEntry type="library" name="Selenium Files" level="project" />
     <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
