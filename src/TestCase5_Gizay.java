@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -35,7 +36,7 @@ public class TestCase5_Gizay extends BaseDriver {
         applyNowButton.click();
 
         WebElement successMessage = driver.findElement(By.xpath("//h1[contains(text(), 'Congratulations')]"));
-        assert successMessage.getText().contains("Congratulations");
+        Assert.assertTrue(successMessage.getText().contains("Congratulations"));
 
         System.out.println("");
 
