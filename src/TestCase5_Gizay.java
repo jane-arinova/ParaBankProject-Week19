@@ -38,7 +38,7 @@ public class TestCase5_Gizay extends BaseDriver {
         WebElement successMessage = driver.findElement(By.xpath("//h1[contains(text(), 'Congratulations')]"));
         Assert.assertTrue(successMessage.getText().contains("Congratulations"));
 
-        System.out.println("");
+
 
 
         driver.quit();
